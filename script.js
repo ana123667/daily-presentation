@@ -22,7 +22,7 @@ function proximoNome() {
 
 document.getElementById('btn-proximo').addEventListener('click', proximoNome);
 
-// Ao carregar a página
+// When loading the page
 window.onload = function () {
   let nomesSalvos = JSON.parse(localStorage.getItem('nomes'));
   if (nomesSalvos != null) {
